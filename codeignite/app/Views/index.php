@@ -20,8 +20,16 @@
 <body>
   <!-- add new post modal start -->
 <h1 class="title">  Gestion Agriculture</h1>
-  <form>
+<form>
       <!-- add new User-->
+    <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Mr.</label>
+    </div>
+    <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Mme</label>
+    </div>
   <div>
         <div class="mb-3">
             <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nom">
